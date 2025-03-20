@@ -1,6 +1,6 @@
-.body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #33432c;
 }
 img{
     height: 160px;
@@ -8,10 +8,17 @@ img{
     border-radius: 80%;
     margin-top: 20px;
     align-self: center;
+    box-shadow: chartreuse 0px 0px 10px;
 }
 
-h1{
+.Titulo{
     color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.redes{
+    color: rgb(255, 255, 255);
     flex-direction: column;
     text-align: center;
 }
@@ -39,19 +46,19 @@ h1{
     transform: translateY(5px);
 }
 
-.Contacto  {
+.Contacto {
     display: flex;
     flex-direction :row;
     align-self: center;
     justify-self:center;
-    margin-top: 40px;
+    margin-top: 5px;
     text-decoration: none;
     color: white;
     gap: 7px
 }
 
 .Contacto:hover{
-    color: rgb(19, 115, 0);
+    color: chartreuse
 }
 
 .Contacto a {
